@@ -10,7 +10,9 @@
 - My FreeCodeCamp Backend Development Certification - https://www.freecodecamp.org/certification/coderoyalty/back-end-development-and-apis
 - Practice Software Engineering at ALX - 2022 - 2023
 
-![ALX Certificate](./alx-cert.jpg)
+<h3 align="center"><a href="https://intranet.alxswe.com/certificates/zn5Ge9xR2H" alt="coderoyalty's certificate">My ALX Certificate</a></h3>
+
+![ALX Certificate](./17-short-specializations-certificate-emmanuel-akanni.png)
 
 ---
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=coderoyalty&theme=onedark" alt="coderoyalty" /></a> </p>
