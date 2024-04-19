@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0">
+      <div className="fixed top-0 left-0 right-0 z-50">
         <header className="sticky top-0 max-w-[720px] mx-auto p-2 flex justify-between">
           {/*Logo & Name*/}
           <h1 className="text-xl dark:text-slate-50 underline">CodeRoyalty</h1>
