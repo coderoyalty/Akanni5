@@ -24,7 +24,7 @@ const stacks = [
 const TechStack = () => {
   return (
     <>
-      <div className="mockup-code mx-auto text-left mt-4">
+      <div className="mockup-code mx-auto max-sm:max-w-36 text-left mt-4">
         {stacks.map(([stack, code], idx) => {
           return (
             <pre
@@ -32,7 +32,7 @@ const TechStack = () => {
               className={`${code} text-xl font-bold`}
               key={idx}
             >
-              <code>{stack}</code>
+              <span>{stack}</span>
             </pre>
           );
         })}
