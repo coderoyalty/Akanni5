@@ -3,6 +3,7 @@ import {
   LinkedInLogoIcon,
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
+
 import React from "react";
 function Hero() {
   const canvasRef = React.useRef<HTMLCanvasElement>(null!);
@@ -95,7 +96,10 @@ function Hero() {
 
   return (
     <>
-      <div ref={heroRef} className="hero min-h-screen bg-base-200 relative">
+      <div
+        ref={heroRef}
+        className="hero min-h-screen bg-base-200 relative bg-gradient-to-br from-black via-slate-900 to-zinc-800"
+      >
         <div className="hero-content flex-col text-center z-10">
           <div className="space-y-2">
             <h1>

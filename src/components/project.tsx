@@ -5,6 +5,18 @@ interface ProjectProps {
   component: React.ReactNode;
 }
 
+export type ProjectLink = {
+  url: string;
+  type: "github" | "external";
+};
+
+export interface IProject {
+  content: string;
+  tags: string[];
+  links: ProjectLink[];
+  picPath: string;
+}
+
 const Project: React.FC<ProjectProps> = ({ imageSrc, component }) => {
   return (
     <div className="flex justify-center items-center md:w-[80%] min-h-dvh mx-auto my-4 max-md:flex-col">
