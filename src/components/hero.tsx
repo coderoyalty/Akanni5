@@ -5,9 +5,12 @@ import {
 } from "@radix-ui/react-icons";
 
 import React from "react";
+import useIsDesktop from "../hooks/useIsDesktop";
 function Hero() {
   const canvasRef = React.useRef<HTMLCanvasElement>(null!);
   const heroRef = React.useRef<HTMLDivElement>(null!);
+
+  const isDesktop = useIsDesktop();
 
   React.useEffect(() => {
     const canvas = canvasRef.current;
@@ -17,6 +20,12 @@ function Hero() {
     const banner = heroRef.current;
 
     const ctx = canvas.getContext("2d")!;
+
+    if (!isDesktop) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      return;
+    }
 
     let dots: { x: number; y: number; size: number; color: string }[] = [];
     let arrayColors = ["#ded", "#54f4d4", "#a96f91", "#ed5a68", "#694337"];
@@ -92,7 +101,7 @@ function Hero() {
       banner.removeEventListener("mouseout", onMouseOut);
       window.removeEventListener("resize", onWindowResize);
     };
-  }, []);
+  }, [isDesktop]);
 
   return (
     <>
