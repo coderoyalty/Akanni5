@@ -12,19 +12,19 @@ export default function Header() {
           </a>
           {/*Navigation Bar*/}
           <nav className="max-md:fixed bottom-0 left-0 right-0">
-            <ul className="flex justify-center join gap-2 p-2 max-md:bg-slate-800">
+            <ul className="flex justify-center join gap-2 p-2 max-md:bg-slate-800 rounded-none">
               <li className="text-base font-normal join-item">
-                <a href="#about" className="btn btn-ghost">
+                <a href="#about" className="btn btn-sm btn-ghost">
                   About
                 </a>
               </li>
               <li className="text-base font-normal join-item">
-                <a href="#projects" className="btn btn-ghost">
+                <a href="#projects" className="btn btn-sm btn-ghost">
                   Projects
                 </a>
               </li>
               <li className="text-base font-normal join-item">
-                <a href="#portfolio" className="btn btn-ghost">
+                <a href="#portfolio" className="btn btn-sm btn-ghost">
                   Portfolio
                 </a>
               </li>

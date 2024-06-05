@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <div>
         <div className="hero min-h-screen">
-          <div className="hero-content flex-col">
+          <div className="hero-content flex-col reveal">
             <h1 className="">My Tech Stack</h1>
             <TechStack />
           </div>
