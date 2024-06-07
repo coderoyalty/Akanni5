@@ -16,12 +16,21 @@
         "url": "https://github.com/coderoyalty/pseudonym-app",
         "type": "github"
       },
-      {
-        "url": "https://pseudonym-app.vercel.app",
-        "type": "external"
-      }
+      { "url": "https://pseudonym-app.vercel.app", "type": "external" }
     ],
     "tags": ["TypeScript", "React", "Express", "MongoDB"],
     "status": "Live"
+  },
+  {
+    "content": "# Gists\n\nGists is a web application inspired by GitHub Gists, designed for seamless sharing of notes, code snippets, and ideas. It serves as a public platform for creating a compact discussion forum, enabling users to effortlessly exchange thoughts and insights with others. By providing a hassle-free environment for sharing and collaborating, Gists aims to facilitate knowledge sharing and foster a sense of community among users. - Meta AI\n",
+    "image": "./gists.png",
+    "links": [
+      {
+        "url": "https://github.com/coderoyalty/gists",
+        "type": "github"
+      }
+    ],
+    "tags": ["TypeScript", "React", "Supabase"],
+    "status": "WIP"
   }
 ]
