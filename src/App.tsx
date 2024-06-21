@@ -7,17 +7,19 @@ import TechStack from "./components/tech-stack.tsx";
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <div>
-        <div className="hero min-h-screen">
-          <div className="hero-content flex-col reveal">
-            <h1 className="">My Tech Stack</h1>
-            <TechStack />
+      <main className="dot-gradient">
+        <Header />
+        <Hero />
+        <div>
+          <div className="hero min-h-screen">
+            <div className="hero-content flex-col reveal">
+              <h1 className="">My Tech Stack</h1>
+              <TechStack />
+            </div>
           </div>
+          <Projects />
         </div>
-        <Projects />
-      </div>
+      </main>
     </>
   );
 }

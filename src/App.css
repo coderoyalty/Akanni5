@@ -3,6 +3,16 @@
   /* @apply bg-base-200; */
 }
 
+.dot-gradient {
+  background-image: radial-gradient(
+    circle,
+    rgb(140, 157, 179, 0.5) 3px,
+    rgba(255, 255, 255, 0) 3px
+  );
+
+  background-size: 2em 2em;
+}
+
 @keyframes appear {
   from {
     opacity: 0;
